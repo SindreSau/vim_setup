@@ -80,6 +80,15 @@ colorscheme molokai
 call plug#begin()
     Plug 'dense-analysis/ale'
     Plug 'preservim/nerdtree'
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
+    Plug 'itchyny/lightline.vim'
+    Plug 'terryma/vim-multiple-cursors'
+    Plug 'mattn/emmet-vim'
+    Plug 'tpope/vim-surround'
+    Plug 'ap/vim-css-color'
+    Plug 'terryma/vim-smooth-scroll'
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end() 
 " }}}
 
